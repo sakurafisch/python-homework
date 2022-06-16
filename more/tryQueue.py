@@ -1,0 +1,15 @@
+from Queue import Queue
+
+q: Queue = Queue()
+print(q.isEmpty())
+q.enqueue(4)
+q.enqueue('dog')
+q.enqueue(True)
+print(q.size())
+print(q.isEmpty())
+q.enqueue(8.4)
+print(q)
+print(q.dequeue())
+print(q.dequeue())
+print(q.size())
+print(q)
